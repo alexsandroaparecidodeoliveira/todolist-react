@@ -5,7 +5,8 @@ import Bg from "./assets/bg.gif";
 
 export const Container = styled.div`
   background-image: url(${Bg});
-  background-size: cover;
+  background-color: black;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
